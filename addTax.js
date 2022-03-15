@@ -5,6 +5,8 @@ const addTax = (rate) =>{
     }
 }
 
-const tax = addTax(5)
+// const tax = addTax(5)
 
-console.log(tax(10));
+// console.log(tax(10));
+
+console.log(addTax(5)(10));
